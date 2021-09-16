@@ -78,3 +78,6 @@ ON C.idClasse = CH.idClasse
 FULL OUTER JOIN HABILIDADE H
 ON CH.idHabilidade = H.idHabilidade
 GO
+
+SELECT * FROM TIPOUSUARIO
+SELECT * FROM USUARIO

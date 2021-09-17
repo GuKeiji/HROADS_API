@@ -47,7 +47,7 @@ namespace senai.hroads.webApi_.Controllers
 
         [Authorize(Roles = "1, 2")]
         [HttpPut("{idPersonagem}")]
-        public IActionResult Atualizar(int idPersonagem, Personagem PersonagemAtualizado)
+        public IActionResult Atualizar(short idPersonagem, Personagem PersonagemAtualizado)
         {
             _PersonagemRepository.Atualizar(idPersonagem, PersonagemAtualizado);
 

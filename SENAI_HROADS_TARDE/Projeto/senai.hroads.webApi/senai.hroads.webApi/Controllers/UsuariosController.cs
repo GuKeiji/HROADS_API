@@ -13,7 +13,7 @@ namespace senai.hroads.webApi_.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    
     public class UsuariosController : ControllerBase
     {
         private IUsuarioRepository _UsuarioRepository { get; set; }

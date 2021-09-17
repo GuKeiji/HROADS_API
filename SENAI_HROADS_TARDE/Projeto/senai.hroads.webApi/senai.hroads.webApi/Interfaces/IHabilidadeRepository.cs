@@ -8,7 +8,7 @@ namespace senai.hroads.webApi_.Interfaces
         List<Habilidade> Listar();
         Habilidade BuscarPorId(int idHabilidade);
         void Cadastrar(Habilidade novoHabilidade);
-        void Atualizar(int idHabilidade, Habilidade HabilidadeAtualizado);
+        void Atualizar(byte idHabilidade, Habilidade HabilidadeAtualizado);
         void Deletar(int idHabilidade);
         List<Habilidade> ListarComTipoHabilidade();
     }

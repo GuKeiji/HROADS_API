@@ -10,7 +10,7 @@ namespace senai.hroads.webApi_.Repository
     public class TipoHabilidadeRepository : ITipoHabilidadeRepository
     {
         InLockContext ctx = new InLockContext();
-        public void Atualizar(int idTipohabilidade, Tipohabilidade TipohabilidadeAtualizado)
+        public void Atualizar(byte idTipohabilidade, Tipohabilidade TipohabilidadeAtualizado)
         {
             Tipohabilidade TipohabilidadeBuscado = ctx.Tipohabilidades.Find(idTipohabilidade);
 

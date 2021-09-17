@@ -11,7 +11,7 @@ namespace senai.hroads.webApi_.Repository
     public class HabilidadeRepository : IHabilidadeRepository
     {
         InLockContext ctx = new InLockContext();
-        public void Atualizar(int idHabilidade, Habilidade HabilidadeAtualizado)
+        public void Atualizar(byte idHabilidade, Habilidade HabilidadeAtualizado)
         {
             Habilidade HabilidadeBuscado = ctx.Habilidades.Find(idHabilidade);
 

@@ -8,7 +8,7 @@ namespace senai.hroads.webApi_.Interfaces
         List<Personagem> Listar();
         Personagem BuscarPorId(int idPersonagem);
         void Cadastrar(Personagem novoPersonagem);
-        void Atualizar(int idPersonagem, Personagem PersonagemAtualizado);
+        void Atualizar(short idPersonagem, Personagem PersonagemAtualizado);
         void Deletar(int idPersonagem);
     }
 }

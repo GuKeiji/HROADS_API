@@ -9288,19 +9288,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fic\\.nuget\\packages\\": {}
+    "C:\\Users\\lucas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fic\\Desktop\\Projetinho\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\senai.hroads.webApi..csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\senai.hroads.webApi..csproj",
       "projectName": "senai.hroads.webApi.",
-      "projectPath": "C:\\Users\\fic\\Desktop\\Projetinho\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\senai.hroads.webApi..csproj",
-      "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fic\\Desktop\\Projetinho\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\obj\\",
+      "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\senai.hroads.webApi..csproj",
+      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9383,7 +9383,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

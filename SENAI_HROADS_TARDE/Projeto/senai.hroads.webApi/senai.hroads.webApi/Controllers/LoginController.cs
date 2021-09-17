@@ -40,7 +40,7 @@ namespace senai.hroads.webApi_.Controllers
                 new Claim(ClaimTypes.Role, usuarioBuscado.IdTipoUsuario.ToString())
             };
 
-            var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("usuario-chave-autenticacao"));
+            var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("senai_HROADS_webAPI.securitykey"));
 
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 

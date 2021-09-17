@@ -11,7 +11,7 @@ namespace senai.hroads.webApi_.Repository
     public class ClasseRepository : IClasseRepository
     {
         InLockContext ctx = new InLockContext();
-        public void Atualizar(int idClasse, Classe classeAtualizado)
+        public void Atualizar(byte idClasse, Classe classeAtualizado)
         {
             Classe classeBuscado = ctx.Classes.Find(idClasse);
 

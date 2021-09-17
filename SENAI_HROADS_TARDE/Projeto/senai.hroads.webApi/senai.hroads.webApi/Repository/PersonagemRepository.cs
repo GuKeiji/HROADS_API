@@ -11,7 +11,7 @@ namespace senai.hroads.webApi_.Repository
     public class PersonagemRepository : IPersonagemRepository
     {
         InLockContext ctx = new InLockContext();
-        public void Atualizar(int idPersonagem, Personagem PersonagemAtualizado)
+        public void Atualizar(short idPersonagem, Personagem PersonagemAtualizado)
         {
             Personagem PersonagemBuscado = ctx.Personagems.Find(idPersonagem);
 

@@ -47,7 +47,7 @@ namespace senai.hroads.webApi_.Controllers
 
         [Authorize(Roles = "1, 2")]
         [HttpPut("{idTipohabilidade}")]
-        public IActionResult Atualizar(int idTipohabilidade, Tipohabilidade TipohabilidadeAtualizado)
+        public IActionResult Atualizar(byte idTipohabilidade, Tipohabilidade TipohabilidadeAtualizado)
         {
             _TipohabilidadeRepository.Atualizar(idTipohabilidade, TipohabilidadeAtualizado);
 

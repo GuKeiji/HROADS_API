@@ -8,7 +8,7 @@ namespace senai.hroads.webApi_.Interfaces
         List<Tipohabilidade> Listar();
         Tipohabilidade BuscarPorId(int idTipohabilidade);
         void Cadastrar(Tipohabilidade novoTipohabilidade);
-        void Atualizar(int idTipohabilidade, Tipohabilidade TipohabilidadeAtualizado);
+        void Atualizar(byte idTipohabilidade, Tipohabilidade TipohabilidadeAtualizado);
         void Deletar(int idTipohabilidade);
     }
 }

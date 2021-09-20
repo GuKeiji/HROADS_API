@@ -13,7 +13,6 @@ namespace senai.hroads.webApi_.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class ClassesController : ControllerBase
     {
         private IClasseRepository _classeRepository { get; set; }
@@ -21,14 +20,12 @@ namespace senai.hroads.webApi_.Controllers
         {
             _classeRepository = new ClasseRepository();
         }
-        [Authorize(Roles = "1, 2")]
         [HttpGet]
         public IActionResult Listar()
         {
             return Ok(_classeRepository.Listar());
         }
 
-        [Authorize(Roles = "1, 2")]
         [HttpGet("{idclasse}")]
         public IActionResult BuscarPorId(int idclasse)
         {

@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "2efc192c-5433-4932-aa75-9c80adc36fb8",
+		"_postman_id": "6ffca6e2-efea-4592-8496-f19726baced4",
 		"name": "senai_webAPI_HROADS",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -559,6 +559,15 @@
 								"5"
 							]
 						}
+					},
+					"response": []
+				},
+				{
+					"name": "Habilidade.ListarComTipoHabilidade",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
 					},
 					"response": []
 				}

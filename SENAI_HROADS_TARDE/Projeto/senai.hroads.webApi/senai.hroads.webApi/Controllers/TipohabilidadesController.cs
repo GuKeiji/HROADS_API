@@ -13,7 +13,6 @@ namespace senai.hroads.webApi_.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class TipohabilidadesController : ControllerBase
     {
         private ITipoHabilidadeRepository _TipohabilidadeRepository { get; set; }
@@ -22,14 +21,12 @@ namespace senai.hroads.webApi_.Controllers
             _TipohabilidadeRepository = new TipoHabilidadeRepository();
         }
 
-        [Authorize(Roles = "1, 2")]
         [HttpGet]
         public IActionResult Listar()
         {
             return Ok(_TipohabilidadeRepository.Listar());
         }
 
-        [Authorize(Roles = "1, 2")]
         [HttpGet("{idTipohabilidade}")]
         public IActionResult BuscarPorId(int idTipohabilidade)
         {

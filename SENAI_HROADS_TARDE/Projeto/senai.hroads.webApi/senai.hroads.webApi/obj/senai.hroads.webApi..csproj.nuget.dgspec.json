@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\senai.hroads.webApi..csproj": {}
+    "E:\\HD\\SENAI-2ºT\\Pull_do_HROADS\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\senai.hroads.webApi..csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\senai.hroads.webApi..csproj": {
+    "E:\\HD\\SENAI-2ºT\\Pull_do_HROADS\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\senai.hroads.webApi..csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\senai.hroads.webApi..csproj",
+        "projectUniqueName": "E:\\HD\\SENAI-2ºT\\Pull_do_HROADS\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\senai.hroads.webApi..csproj",
         "projectName": "senai.hroads.webApi.",
-        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\senai.hroads.webApi..csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\obj\\",
+        "projectPath": "E:\\HD\\SENAI-2ºT\\Pull_do_HROADS\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\senai.hroads.webApi..csproj",
+        "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
+        "outputPath": "E:\\HD\\SENAI-2ºT\\Pull_do_HROADS\\HROADS_API\\SENAI_HROADS_TARDE\\Projeto\\senai.hroads.webApi\\senai.hroads.webApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fabio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
